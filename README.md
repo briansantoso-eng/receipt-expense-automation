@@ -1,6 +1,7 @@
-# Receipt & Expense Automation
+# POS Reconciliation & Receipt Automation — Claude API Integration
 
-Two related back-office automations built on the Claude API. A client sends
+Two related back-office automations built on the **Claude API**: a POS sales
+reconciliation pipeline and a receipt/expense extraction pipeline. A client sends
 documents; a categorised spreadsheet and a review draft come back. Runs
 unattended on a schedule, and never sends anything to a client without a human
 looking first.
@@ -23,6 +24,10 @@ Claude explains any gap in plain English. Every figure is computed in Python;
 Claude only writes the explanation.
 
 Both share the billing gate, the inbox reader and the review-email delivery.
+
+**[DECISIONS.md](DECISIONS.md)** records what was decided and why — including two
+optimisations that were measured and then reverted, and the bugs that changed the
+design.
 
 ---
 
