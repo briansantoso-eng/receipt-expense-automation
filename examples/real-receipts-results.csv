@@ -1,0 +1,7 @@
+﻿date,vendor,category,subtotal,tax,total,currency,tax_included_in_total,status
+2025-09-14,TK Maxx,supplies,47.25,4.72,51.97,AUD,True,check
+2025-09-14,Thai Kee IGA S/Market,supplies,26.41,2.64,29.05,AUD,True,ok
+2025-09-14,Thai Kee IGA S/Market,supplies,4.45,0.0,4.45,AUD,True,check
+2026-02-23,Coles,supplies,12.09,1.21,13.3,AUD,True,ok
+2026-04-22,TK Maxx,supplies,7.26,0.73,7.99,AUD,True,ok
+2026-08-10,LL Anderson Bros,professional_services,126.36,12.64,139.0,AUD,True,check

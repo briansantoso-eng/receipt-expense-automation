@@ -25,6 +25,8 @@ Claude only writes the explanation.
 
 Both share the billing gate, the inbox reader and the review-email delivery.
 
+**[examples/](examples/)** has runnable sample receipts with their correct answers, plus the real-receipt accuracy results.
+
 **[DECISIONS.md](DECISIONS.md)** records what was decided and why — including two
 optimisations that were measured and then reverted, and the bugs that changed the
 design.

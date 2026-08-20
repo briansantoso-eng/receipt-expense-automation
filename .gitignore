@@ -21,3 +21,8 @@ venv/
 # Local scratch: comparison baselines and editor settings
 _test_fixtures/
 .vscode/
+
+# Worked examples ARE published: synthetic receipts and a redacted results CSV.
+# Real receipt photos stay out - see examples/README.md for why.
+!examples/
+!examples/**
