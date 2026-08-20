@@ -1,0 +1,16 @@
+{
+  "vendor": "Thai Kee IGA S/Market",
+  "date": "2025-09-14",
+  "currency": "AUD",
+  "total": 4.45,
+  "tax": 0.0,
+  "tax_included_in_total": true,
+  "subtotal": 4.45,
+  "category": "supplies",
+  "unreadable_fields": [],
+  "status": "check",
+  "issues": [
+    "[warning] tax: tax is 0.00 on a AUD receipt \u00e2\u20ac\u201d possible if everything was tax-free, but check it wasn't just missed"
+  ],
+  "source_file": "05-thaikee-4.45-gst-free.png"
+}

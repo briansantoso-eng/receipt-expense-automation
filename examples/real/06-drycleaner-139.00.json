@@ -1,0 +1,18 @@
+{
+  "vendor": "LL Anderson Bros",
+  "date": "2026-08-10",
+  "currency": "AUD",
+  "total": 139.0,
+  "tax": 12.64,
+  "tax_included_in_total": true,
+  "subtotal": 126.36,
+  "category": "professional_services",
+  "unreadable_fields": [
+    "payment_method"
+  ],
+  "status": "check",
+  "issues": [
+    "[warning] payment_method: Claude flagged these as guessed from an unclear receipt"
+  ],
+  "source_file": "06-drycleaner-139.00.png"
+}

@@ -1,0 +1,14 @@
+{
+  "vendor": "TK Maxx",
+  "date": "2026-04-22",
+  "currency": "AUD",
+  "total": 7.99,
+  "tax": 0.73,
+  "tax_included_in_total": true,
+  "subtotal": 7.26,
+  "category": "supplies",
+  "unreadable_fields": [],
+  "status": "ok",
+  "issues": [],
+  "source_file": "01-tkmaxx-7.99.png"
+}

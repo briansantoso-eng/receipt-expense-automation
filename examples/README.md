@@ -1,8 +1,8 @@
 # Worked examples
 
-Two kinds of evidence here, kept deliberately separate so nothing is
-overstated: **synthetic receipts you can run yourself**, and **the real numbers**
-from a private test set.
+Two kinds of evidence, kept separate so nothing is overstated: **synthetic
+receipts you can regenerate and run yourself**, and **six real receipts** with
+the output they produced.
 
 ---
 
@@ -43,9 +43,10 @@ The pipeline gets all five right, including both tax regimes, and flags
 
 ---
 
-## 2. Real receipts — the numbers, not the images
+## 2. Real receipts
 
-`real-receipts-results.csv`
+**[real/](real/)** — all six photos, each paired with the JSON it produced.
+`real-receipts-results.csv` is the combined spreadsheet.
 
 Six genuine receipts, photographed on a phone: crumpled, shot sideways, one
 food-stained, one legitimately GST-free. **6/6 correct on every total, tax and
@@ -76,17 +77,14 @@ Nothing incorrect was ever returned unflagged. That property matters more than
 the accuracy rate: a wrong number nobody questioned is far worse than a right
 number that got double-checked.
 
-### Why the photos aren't here
+### The photos
 
-They're my own receipts, and they carry things that don't belong in a public
-repository: a surname and a mobile phone number on the dry-cleaning docket, the
-last four digits of five different cards, the first names of shop staff, and
-another customer's receipt visible at the edge of one frame.
+**[real/](real/)** has all six, each paired with the JSON it produced.
 
-Redaction on six busy photographs means roughly twenty hand-placed boxes, and a
-public git history keeps whatever slips through even after the file is deleted.
-The synthetic set above demonstrates the same capability and can be regenerated
-by anyone, so the real images add nothing that justifies the risk.
+Card numbers, staff names, a phone number and other customers' receipts caught
+in frame are blacked out. Every redaction was checked by eye afterwards — one
+pass missed a bystander receipt visible at the edge of frame 4, which is why the
+verification step exists rather than trusting a single run.
 
-The `payment_method` and `source_file` columns were also dropped from the CSV
-above for the same reason — the rest of it is untouched output.
+The `payment_method` and `source_file` columns are dropped from the CSV and the
+JSON for the same reason. Everything else is untouched output.

@@ -1,0 +1,14 @@
+{
+  "vendor": "Coles",
+  "date": "2026-02-23",
+  "currency": "AUD",
+  "total": 13.3,
+  "tax": 1.21,
+  "tax_included_in_total": true,
+  "subtotal": 12.09,
+  "category": "supplies",
+  "unreadable_fields": [],
+  "status": "ok",
+  "issues": [],
+  "source_file": "03-coles-13.30.png"
+}

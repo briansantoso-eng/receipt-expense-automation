@@ -1,0 +1,18 @@
+{
+  "vendor": "TK Maxx",
+  "date": "2025-09-14",
+  "currency": "AUD",
+  "total": 51.97,
+  "tax": 4.72,
+  "tax_included_in_total": true,
+  "subtotal": 47.25,
+  "category": "supplies",
+  "unreadable_fields": [
+    "tax"
+  ],
+  "status": "check",
+  "issues": [
+    "[warning] tax: Claude flagged these as guessed from an unclear receipt"
+  ],
+  "source_file": "02-tkmaxx-51.97.png"
+}

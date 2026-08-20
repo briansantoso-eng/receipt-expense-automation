@@ -1,0 +1,14 @@
+{
+  "vendor": "Thai Kee IGA S/Market",
+  "date": "2025-09-14",
+  "currency": "AUD",
+  "total": 29.05,
+  "tax": 2.64,
+  "tax_included_in_total": true,
+  "subtotal": 26.41,
+  "category": "supplies",
+  "unreadable_fields": [],
+  "status": "ok",
+  "issues": [],
+  "source_file": "04-thaikee-29.05.png"
+}
