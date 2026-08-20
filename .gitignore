@@ -1,0 +1,23 @@
+# Secrets. Never commit this — it holds your API key and Gmail App Password.
+.env
+
+# Your real client roster (names, emails, payment status).
+clients.json
+
+# Client data: receipt images, extracted results, generated spreadsheets.
+receipts/
+output/
+expenses*.csv
+
+# Run logs
+logs/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Local scratch: comparison baselines and editor settings
+_test_fixtures/
+.vscode/

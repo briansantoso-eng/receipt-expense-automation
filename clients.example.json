@@ -1,0 +1,39 @@
+{
+  "_comment": [
+    "Your client roster. Copy this file to clients.json and edit it.",
+    "",
+    "The gate is keyed on the sender's EMAIL, not the name in the subject line —",
+    "clients misspell their own business name, but they can't misspell which",
+    "account they send from. The 'name' field is only used for display.",
+    "",
+    "status:",
+    "  active  - process submissions, spend API credit",
+    "  unpaid  - do NOT call the API; hold the submission and tell me",
+    "  paused  - do NOT call the API; hold it quietly (client on a break)",
+    "",
+    "Anyone NOT listed here is treated as unknown and never reaches the API.",
+    "Held emails are left unread, so flipping a status to 'active' makes the",
+    "next run pick them up automatically — nothing needs resending."
+  ],
+
+  "clients": [
+    {
+      "email": "owner@joescafe.example",
+      "name": "Joe's Cafe",
+      "status": "active",
+      "notes": "$150/mo, invoiced on the 1st. Paid through Aug 2026."
+    },
+    {
+      "email": "hello@baybakery.example",
+      "name": "Bay Bakery",
+      "status": "unpaid",
+      "notes": "Invoice #12 overdue since 2026-08-01. Do not run until paid."
+    },
+    {
+      "email": "manager@cornerstore.example",
+      "name": "Corner Store",
+      "status": "paused",
+      "notes": "Seasonal closure, resuming October."
+    }
+  ]
+}
